@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # AI Career Agent & Job Matching RAG Engine
 
 A LLM-driven AI Career Agent built with **FastAPI**, **LangGraph**, **ChromaDB**, **SQLite**, and **Google Gemini**. Designed for semantic job retrieval, explainable 4-way hybrid ranking, candidate resume profiling, persistent thread-isolated memory, and real LLM tool-calling workflows.
@@ -159,3 +160,6 @@ The server verifies signature, expiration (`exp`), and subject (`sub`). Client-p
    - SQLite is utilized for zero-configuration local persistence and LangGraph checkpointing with WAL mode enabled. For large-scale distributed deployments with high write concurrency, transition `SqliteSaver` to `PostgresSaver`.
 3. **External Search**:
    - Tavily live web search is an optional prototype fallback. The primary retrieval engine is the local vector store index.
+=======
+# AI_Career_Agent
+>>>>>>> 193af5ba4ec91c6508a3990b81e0cfc7a6940c78
