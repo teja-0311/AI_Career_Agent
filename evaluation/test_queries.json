@@ -1,0 +1,58 @@
+[
+  {
+    "query_id": "q1",
+    "query": "Entry-level Python developer roles with FastAPI and backend services",
+    "relevant_job_ids": ["job_ai_001", "job_be_002", "job_fs_005"],
+    "profile": {
+      "skills": ["Python", "FastAPI", "SQL"],
+      "experience_level": "Entry-level",
+      "years_of_experience": 1.0,
+      "work_mode_preference": "Remote"
+    }
+  },
+  {
+    "query_id": "q2",
+    "query": "Backend engineering with PostgreSQL, REST APIs, and Docker containerization",
+    "relevant_job_ids": ["job_be_002", "job_ai_001"],
+    "profile": {
+      "skills": ["Python", "PostgreSQL", "Docker", "FastAPI"],
+      "experience_level": "Entry-level",
+      "years_of_experience": 2.0,
+      "work_mode_preference": "Remote"
+    }
+  },
+  {
+    "query_id": "q3",
+    "query": "Web frontend and full stack engineering with React, TypeScript, and modern UI",
+    "relevant_job_ids": ["job_fe_003", "job_fs_005"],
+    "profile": {
+      "skills": ["React", "TypeScript", "JavaScript", "HTML", "CSS"],
+      "experience_level": "Mid-level",
+      "years_of_experience": 3.0,
+      "work_mode_preference": "Remote"
+    }
+  },
+  {
+    "query_id": "q4",
+    "query": "Machine learning, PyTorch, model training, and AI engineering",
+    "relevant_job_ids": ["job_mle_004", "job_ai_001"],
+    "profile": {
+      "skills": ["Python", "PyTorch", "Machine Learning", "Kubernetes", "Docker"],
+      "experience_level": "Senior",
+      "years_of_experience": 6.0,
+      "location_preference": "Seattle, WA",
+      "work_mode_preference": "On-site"
+    }
+  },
+  {
+    "query_id": "q5",
+    "query": "Remote Python software engineering positions with modern frameworks",
+    "relevant_job_ids": ["job_be_002", "job_fs_005"],
+    "profile": {
+      "skills": ["Python", "FastAPI", "React", "Docker"],
+      "experience_level": "Mid-level",
+      "years_of_experience": 3.0,
+      "work_mode_preference": "Remote"
+    }
+  }
+]
