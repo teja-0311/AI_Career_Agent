@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # AI Career Agent & Job Matching RAG Engine
 
 A LLM-driven AI Career Agent built with **FastAPI**, **LangGraph**, **ChromaDB**, **SQLite**, and **Google Gemini**. Designed for semantic job retrieval, explainable 4-way hybrid ranking, candidate resume profiling, persistent thread-isolated memory, and real LLM tool-calling workflows.
@@ -96,7 +95,7 @@ python -m evaluation.evaluate_retrieval
 
 ### 5. Launch FastAPI Backend
 ```bash
-uvicorn app.main:app --host 0.0.0.0 --port 8000 --reload
+uvicorn app.main:app --host 127.0.0.1 --port 8000 --reload
 ```
 Interactive Swagger API documentation: **[http://localhost:8000/docs](http://localhost:8000/docs)**
 
@@ -161,5 +160,3 @@ The server verifies signature, expiration (`exp`), and subject (`sub`). Client-p
 3. **External Search**:
    - Tavily live web search is an optional prototype fallback. The primary retrieval engine is the local vector store index.
 =======
-# AI_Career_Agent
->>>>>>> 193af5ba4ec91c6508a3990b81e0cfc7a6940c78
